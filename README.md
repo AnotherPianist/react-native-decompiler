@@ -8,11 +8,10 @@ Also tries to remove some compilation artifacts (via internal plugins, ESLint, a
 
 # Usage
 
-1. Download
-2. `npm i`
-3. Build or use ts-node (your choice).
-
-Example command: `node ./out/main.js -i index.android.bundle -o ./output`, `ts-node ./src/main.js -i index.android.bundle -o ./output`
+1. Clone
+2. Install dependencies with `npm install`
+3. Build with `npm run build`
+4. Run with `node ./out/main.js -i index.android.bundle -o ./output`
 
 Command params:
 - `-i` (required) - input file/folder
